@@ -13,6 +13,8 @@ Topology:
 
 Windows Server: 192.168.1.10
 
+![Screenshot 2025-06-04 190150](https://github.com/user-attachments/assets/a0139dda-8440-44fb-a945-a633e4c10682)
+
 Domain: campus.edu
 
 
