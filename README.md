@@ -28,6 +28,8 @@ Lab Tasks
 Task 1: Create Organizational Units & User Accounts
 Open Active Directory Users and Computers via dsa.msc.
 
+![Screenshot 2025-06-05 105936](https://github.com/user-attachments/assets/d4e2daa7-b75e-4ce9-af94-deaa02c8381b)
+
 Right-click domain (campus.edu) → New → Organizational Unit.
 Name: Minecraft (example OU).
 
