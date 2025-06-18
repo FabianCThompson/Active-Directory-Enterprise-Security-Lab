@@ -1,1 +1,68 @@
-![Screenshot 2025-06-04 190150](https://github.com/user-attachments/assets/5346cc99-9fb1-4c25-be0c-e5f66cdd7474)
+Domain: Identity & Access Management
+
+Objective: Master Active Directory (AD) to manage users, groups, policies, and security configuration in a Windows enterprise environment.
+
+Key Outcomes:
+
+Create Organizational Units (OUs) and user accounts.
+Configure domain-level and OU-level Group Policies.
+Enforce security policies (password complexity, access control
+Lab Setup
+
+Topology:
+
+Windows Server: 192.168.1.10
+
+Domain: campus.edu
+
+
+Tools used:
+
+Active Directory Users & Computers (dsa.msc)
+Group Policy Management Console
+Command Prompt (net user, gpupdate)
+Lab Tasks
+
+Task 1: Create Organizational Units & User Accounts
+Open Active Directory Users and Computers via dsa.msc.
+
+Right-click domain (campus.edu) → New → Organizational Unit.
+Name: Minecraft (example OU).
+
+
+Create users inside Minecraft OU:
+Right-click OU → New → User.
+Usernames: creeper, zombie, steve.
+Password: P@ssw0rd (uncheck "User must change password at next logon")
+
+
+
+
+Why This Matters:
+
+Organizational Units mirror organizational structure (e.g., Finance, IT). Policies applied to an Organizational Unit affect all contained objects.
+
+Task 2: Configure domain-level and OU-level Group Policies
+Task 2: Set Domain-Level Password Policy
+Open Group Policy Management → Expand Forest: campus.edu → Domains → campus.edu.
+
+Edit Default Domain Policy.
+
+Navigate to: Computer Configuration → Policies → Security Settings → Account Policies → Password Policy.
+
+Set the Minimum password length to 10 characters
+
+
+
+Now we need to refresh the group policy in the Command Prompt
+
+
+Security Impact:
+
+Domain-level policies enforce baseline security (e.g., password complexity) across all users.
+
+
+
+
+
+F
