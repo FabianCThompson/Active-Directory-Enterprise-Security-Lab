@@ -77,10 +77,4 @@ Now we need to refresh the group policy in the Command Prompt
 
 Security Impact:
 
-Domain-level policies enforce baseline security (e.g., password complexity) across all users.
-
-
-
-
-
-F
+Domain-level policies enforce baseline security (e.g., password complexity) across all users. This lab/walkthrough was completed in a virtual machine.
